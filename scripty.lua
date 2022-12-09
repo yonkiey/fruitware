@@ -5,9 +5,9 @@ Mouse.KeyDown:Connect(
     function(Key)
         if Key == press then
             if SilentAim then
-                SilentAim = true
-            else
                 SilentAim = false
+            else
+                SilentAim = true
             end
         end
     end
