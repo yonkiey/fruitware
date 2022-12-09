@@ -1,5 +1,5 @@
 local Mouse = game:GetService("Players").LocalPlayer:GetMouse()
-local SilentAim = false
+local SilentAim = true
 local press = "c"
 Mouse.KeyDown:Connect(
     function(Key)
